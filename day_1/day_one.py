@@ -1,20 +1,33 @@
-import numpy as np
-calib_values = open('day_1\input.txt').readlines()
+#!/usr/bin/env python
 
+"""day_one.py: Solution to Advent of Code 2023 - Day 1: Trebuchet?!"""
+
+import numpy as np
+
+__author__ = "Sal Greco"
+__credits__ = ["Eric Wastl", "Sal Greco"]
+__license__ = "MIT"
+__email__ = "slgreco@buffalo.edu"
+
+# Load the input data
+calib_values = open('day_1\input.in').readlines()
+
+# Vector used to combine vector of digits
 az_mul = np.array([
     [10],
     [1]
 ])
+
+# Digits as words
 digits_as_str = ['zero', 'one',  'two',
                 'three','four', 'five',
                 'six',  'seven','eight',
                         'nine']
+
 sum = 0
-l = 0
 
 
 while len(calib_values)>=1:
-    l+=1
     # If fisrt = True then searching for the first digit, 
     #          = False then searching for the second digit
     first = True
@@ -23,7 +36,7 @@ while len(calib_values)>=1:
     # Pop the next line
     line = calib_values.pop()
     # Print the line
-    print(line[:-1])
+    # print(line[:-1])
     
     # place holder for trying to find digits as a composite of str
     digit_from_ch = ''
@@ -68,7 +81,7 @@ while len(calib_values)>=1:
         # If this is the first digit,
 
         # Check our work.
-        print(f'got {digit}, first: {first}')
+        # print(f'got {digit}, first: {first}')
 
         # If the first digit
         if first:

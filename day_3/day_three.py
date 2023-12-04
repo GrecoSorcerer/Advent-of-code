@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""day_three.py: Solution to Advent of Code 2023 Day3: Gear Ratios."""
+"""day_three.py: Solution to Advent of Code 2023 - Day 3: Gear Ratios."""
 
 import time
 import numpy as np

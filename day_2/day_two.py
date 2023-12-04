@@ -1,5 +1,14 @@
+#!/usr/bin/env python
+
+"""day_two.py: Solution to Advent of Code 2023 - Day 2: Cube Conundrum"""
+
 import time
 import numpy as np
+
+__author__ = "Sal Greco"
+__credits__ = ["Eric Wastl", "Sal Greco"]
+__license__ = "MIT"
+__email__ = "slgreco@buffalo.edu"
 
 # Load the input data
 cube_games = open('day_2\input.in').readlines()

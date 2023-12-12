@@ -1,5 +1,6 @@
+#!/usr/bin/env python
 
-# data = open('day_5/test_input.in').readlines()
+"""day_five_part1.py: Solution to Advent of Code 2023 - Day 5: First Star"""
 
 import time
 

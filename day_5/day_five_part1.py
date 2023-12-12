@@ -67,7 +67,6 @@ with open('day_5/input.in', 'r') as data:
                     new_seed_ids[i] += diff
 
                     # print(f"{i} {conversion_category} [{srce_start} ... {seed_id} ... {srce_start+range_size}] : {seed_ids} -> {new_seed_ids}")
-                    ...
 
             # add the pairs of range values to their converson category
             seed_ids = new_seed_ids
@@ -87,6 +86,4 @@ with open('day_5/input.in', 'r') as data:
     et = time.monotonic()
     
     print(min(seed_ids),et - st)
-
-    ...
 

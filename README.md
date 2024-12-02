@@ -20,7 +20,7 @@ A collection of solutions to 2023 AoC puzzles.
 
 All included solutions are my own unless otherwise specified in the contribution section of a script.
 
-### [Credits](https://adventofcode.com/2023/about)
+### [Credits](https://adventofcode.com/2024/about)
 
 > Puzzles, Code, & Design: Eric Wastl
 >
